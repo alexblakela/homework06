@@ -13,7 +13,7 @@ if (city) {
 runSearch(city);
 
 function uvIndex (lat,lon) {
-	apiUV = "http://api.openweathermap.org/data/2.5/uvi?appid=" + apiKey + "&lat=" + lat + "&lon=" + lon;
+	apiUV = "https://api.openweathermap.org/data/2.5/uvi?appid=" + apiKey + "&lat=" + lat + "&lon=" + lon;
 	$.get(apiUV, function( uv ) {
 		var uvStyle = Math.floor(uv.value);		
 		$("#cardUV").text(uv.value);
@@ -23,7 +23,7 @@ function uvIndex (lat,lon) {
 
 function runSearch (city) {
 	console.log("runSearch Started");
-	var apiQ = "http://api.openweathermap.org/data/2.5/forecast?q="+ city + "&appid=" + apiKey + "&units=imperial";
+	var apiQ = "https://api.openweathermap.org/data/2.5/forecast?q="+ city + "&appid=" + apiKey + "&units=imperial";
 	/* Query */
 	$.get(apiQ, function( data ) {
 		var icon = data.list[0].weather[0].icon;
