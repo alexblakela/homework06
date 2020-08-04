@@ -1,0 +1,76 @@
+header {
+	background-color: #444;
+	padding: 20px;
+	text-align: center;
+	color: #FFF;
+}
+.sidebar {
+	background-color: #f6f6f6;
+	padding: 20px;
+}
+.content {
+	padding: 20px;
+}
+input {
+	height: 42px;
+}
+button {
+	margin-top: -5px;
+    height: 42px;
+}
+button img {
+	width: 20px;
+	height: 20px;
+	margin-top: -5px;
+}
+.sidebar ul, .content ul {
+	list-style: none;
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+.sidebar li {
+	margin: 0;
+	background-color: #FFF;
+	border: 1px solid #DDD;
+	margin: 5px 0;
+	padding: 12px 20px;
+}
+.content li {
+	margin: 20px 0;
+}
+.card {
+	padding: 20px;
+	display: inline-block;
+	width: 100%;
+}
+.card-sub h2 {
+	display: block;
+}
+.card-sub .card {
+	margin: 10px;
+	padding: 20px;
+}
+/* UV Index */
+#cardUV {
+	padding: 6px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+.uv1, .uv2 {
+	background-color: #43b91e;
+}
+.uv3, .uv4, .uv5 {
+	background-color: #fcc721;
+}
+.uv6, .uv7 {
+	background-color: #fb741b;
+	color: #FFF;
+}
+.uv8, .uv9, .uv10 {
+	background-color: #f81116;
+	color: #FFF;
+}
+.uv11, .uv12, .uv13 {
+	background-color: #866fff;
+	color: #FFF;
+}
